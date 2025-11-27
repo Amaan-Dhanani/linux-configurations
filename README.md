@@ -25,4 +25,5 @@ I started losing track of what I do on my Linux computer, so I will tell you.
     # oh-my-posh terminal configuration
     eval "$(oh-my-posh init bash)"
     ```
-  * Run `exec bash`
+  * Run `exec bash`!
+  * I made my own Oh My Posh Theme that is in this repo... to add it: *Work In Progress*
