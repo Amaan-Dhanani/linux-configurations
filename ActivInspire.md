@@ -5,5 +5,5 @@ Download:
 
 Run:
 ```
-sudo pacman -U ~/Downloads/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst && yay -S --needed activinspire
+sudo pacman -U ~/Downloads/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst && yay -S --needed activinspire && yay -s libxml2
 ```
