@@ -25,7 +25,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
 
   * Run `exec bash`! Now you should have my theme! If you dont want my theme, replace the link of my theme of the bottom of `~/.bashrc`
   * If the font not right yet...
-    * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...`)
+    * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...` - first result)
     * Any other terminal: I don't know, ask ChatGPT!
   * Change time and battery indicator setttings of clock in bottom right corner!
 - LibreOffice Setup:
