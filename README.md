@@ -31,3 +31,4 @@ I started losing track of what I do on my Linux computer, so I will tell you.
 - LibreOffice Setup:
   * Change User Interface settings to `Tabbed`!
 - ActivInspire Setup: [ActivInspire](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md)
+- Deleted all directories in `~/` besides `Desktop` and `Downloads`
