@@ -20,10 +20,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [Windows/Super + Shift + S].
 - Oh My Posh Setup:
   * Run `oh-my-posh font install meslo`
-  * Open `~/.bashrc` and add these last two lines:
-    ```
-    # oh-my-posh terminal configuration
-    eval "$(oh-my-posh init bash)"
-    ```
-  * Run `exec bash`!
-  * I made my own Oh My Posh Theme that is in this repo... to add it: *Work In Progress*
+  * Open `~/.bashrc` and replace the original contents to these: [https://github.com/Amaan-Dhanani/linux-configurations/blob/main/bashrc](url)
+  * Make a file so the file path is `~/amaand.omp.json` and place these contents: [https://github.com/Amaan-Dhanani/linux-configurations/blob/main/amaand.omp.json](url)
+  * Run `exec bash`! Now you should have my theme!
+  * Font not right yet... *Work in Prog.*
