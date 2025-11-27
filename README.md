@@ -24,4 +24,6 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   * Make a file so the file path is `~/amaand.omp.json` and place these contents: [amaand.omp.json contents](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/amaand.omp.json)
 
   * Run `exec bash`! Now you should have my theme!
-  * Font not right yet... *Work in Prog.*
+  * If the font not right yet...
+    * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...`)
+    * Any other terminal: I don't know, ask ChatGPT!
