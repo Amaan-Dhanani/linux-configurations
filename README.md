@@ -20,7 +20,8 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [Windows/Super + Shift + S].
 - Oh My Posh Setup:
   * Run `oh-my-posh font install meslo`
-  * Open `~/.bashrc` and replace the original contents to these: [https://github.com/Amaan-Dhanani/linux-configurations/blob/main/bashrc](url)
-  * Make a file so the file path is `~/amaand.omp.json` and place these contents: [https://github.com/Amaan-Dhanani/linux-configurations/blob/main/amaand.omp.json](url)
+  * Open `~/.bashrc` and replace the original contents to these: [~/.bashrc contents](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/bashrc)
+  * Make a file so the file path is `~/amaand.omp.json` and place these contents: [amaand.omp.json contents](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/amaand.omp.json)
+
   * Run `exec bash`! Now you should have my theme!
   * Font not right yet... *Work in Prog.*
