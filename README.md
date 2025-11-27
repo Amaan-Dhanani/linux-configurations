@@ -15,9 +15,9 @@ I started losing track of what I do on my Linux computer, so I will tell you.
 - Open "Window Manager" and set "Title Alignment" to Left
 - Install `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`
 - Open "Keyboard" and go to "Application Shortcuts" and delete all shortcuts.  
-  * Add a shortcut with command `xfce4-popup-whiskermenu` with shortcut of [Windows/Super].  
-  * Add a shortcut with a command `xfce4-screenshooter` with shortcut of [PrtSc].
-  * Add a shortcut with a command `xfce4-screenshooter` with shortcut of [Windows/Super + Shift + S].
+  * Add a shortcut: Command - `xfce4-popup-whiskermenu`; Shortcut - Windows/Super].  
+  * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [PrtSc].
+  * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [Windows/Super + Shift + S].
 - Oh My Posh Setup:
   * Run `oh-my-posh font install meslo`
   * Open `~/.bashrc` and add these last two lines:
