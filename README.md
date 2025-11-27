@@ -2,7 +2,7 @@
 
 I started losing track of what I do on my Linux computer, so I will tell you.
 
-## 11/26/2025
+## Setup
 - Started all over again by downloading Garuda Linux (XFCE Version)
 - Run these cmds to delete random apps that were hard to delete:
   ```
@@ -13,7 +13,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   ```
 - Delete any unnecessary apps added by Garuda (there are a lot, this will literally take an hour)
 - Open "Window Manager" and set "Title Alignment" to Left
-- Install `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`
+- Installed `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`
 - Open "Keyboard" and go to "Application Shortcuts" and delete all shortcuts.  
   * Add a shortcut: Command - `xfce4-popup-whiskermenu`; Shortcut - Windows/Super].  
   * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [PrtSc].
