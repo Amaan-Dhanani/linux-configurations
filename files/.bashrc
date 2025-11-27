@@ -76,5 +76,5 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 # oh-my-posh Setup      #
 #########################
 if command -v oh-my-posh >/dev/null 2>&1; then
-    eval "$(oh-my-posh init bash --config '/home/amaand/Downloads/amaand.omp.json')"
+    eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/amaand.omp.json')"
 fi
