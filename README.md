@@ -20,10 +20,10 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [Windows/Super + Shift + S].
 - Oh My Posh Setup:
   * Run `oh-my-posh font install meslo`
-  * Open `~/.bashrc` and replace the original contents to these: [~/.bashrc contents](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/bashrc)
-  * Make a file so the file path is `~/amaand.omp.json` and place these contents: [amaand.omp.json contents](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/amaand.omp.json)
+  * Open `~/.bashrc` and replace the original contents to these: [~/.bashrc contents](https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/.bashrc)
+  * This is the theme by the way: [amaand.omp.json contents](https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/amaand.omp.json)
 
-  * Run `exec bash`! Now you should have my theme!
+  * Run `exec bash`! Now you should have my theme! If you dont want my theme, replace the link of my theme of the bottom of `~/.bashrc`
   * If the font not right yet...
     * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...`)
     * Any other terminal: I don't know, ask ChatGPT!
