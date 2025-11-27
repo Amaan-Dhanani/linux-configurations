@@ -27,6 +27,11 @@
         {
           "background": "#FCA17D",
           "foreground": "#193549",
+          "foreground_templates": [
+            "{{if lt .Percentage 20}}#FFFFFF{{end}}",
+            "{{if and (ge .Percentage 20) (le .Percentage 70)}}#193549{{end}}",
+            "{{if ge .Percentage 71}}#00D100{{end}}"
+          ],
           "background_templates": [
             "{{if lt .Percentage 20}}#B22222{{end}}",
             "{{if and (ge .Percentage 20) (le .Percentage 70)}}#f3ae35{{end}}",
