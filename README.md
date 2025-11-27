@@ -11,7 +11,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
              /usr/share/applications/xfce4-terminal-emulator.desktop \
              /usr/share/applications/xfce4-web-browser.desktop
   ```
-- Delete any unnecessary apps added by Garuda (there are a lot)
+- Delete any unnecessary apps added by Garuda (there are a lot, this will literally take an hour)
 - Open "Window Manager" and set "Title Alignment" to Left
 - Install `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`
 - Open "Keyboard" and go to "Application Shortcuts" and delete all shortcuts.  
