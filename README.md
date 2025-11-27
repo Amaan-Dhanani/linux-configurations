@@ -13,7 +13,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   ```
 - Delete any unnecessary apps added by Garuda (there are a lot, this will literally take an hour)
 - Open "Window Manager" and set "Title Alignment" to Left
-- Installed `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`, `libreoffice-fresh`
+- Installed `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`, `libreoffice-fresh`, `chatgpt-desktop-bin`, `debtap`
 - Open "Keyboard" and go to "Application Shortcuts" and delete all shortcuts.  
   * Add a shortcut: Command - `xfce4-popup-whiskermenu`; Shortcut - Windows/Super].  
   * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [PrtSc].
@@ -28,3 +28,6 @@ I started losing track of what I do on my Linux computer, so I will tell you.
     * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...`)
     * Any other terminal: I don't know, ask ChatGPT!
   * Change time and battery indicator setttings of clock in bottom right corner!
+- LibreOffice Setup:
+  * Change User Interface settings to `Tabbed`!
+- ActivInspire Setup: [ActivInspire](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md)
