@@ -30,5 +30,7 @@ I started losing track of what I do on my Linux computer, so I will tell you.
   * Change time and battery indicator setttings of clock in bottom right corner!
 - LibreOffice Setup:
   * Change User Interface settings to `Tabbed`!
+  * I didn't like LibreOffice Math being in the Science and Education categories and only wanted it in the Office category so I copied the contents of `/usr/share/applications/libreoffice-math.desktop` to another file and then deleted `/usr/share/applications/libreoffice-math.desktop` and then placed the new file in `/usr/share/applications` to bypass restrictions  
+
 - ActivInspire Setup: [ActivInspire](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md)
 - Deleted all folders in `~/` besides `Desktop` and `Downloads`
