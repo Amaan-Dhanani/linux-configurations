@@ -141,7 +141,7 @@ sudo cp ~/Downloads/libreoffice-math.desktop /usr/share/applications/
 ### 1. Download Required QT Packages
 Download both files:
 
-- https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst/download
+- https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst/download  
 - https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/qt5-webchannel-5.15.18%2Bkde%2Br3-1-x86_64.pkg.tar.zst/download
 
 Make sure they are both in `~/Downloads`.
@@ -156,18 +156,17 @@ yay -S --needed activinspire && \
 yay -s libxml2
 ```
 
-
 ### 3. First Launch (Check for Errors)
 - Open **ActivInspire** once to check for missing libraries or errors.
 - If there are errors → install missing dependencies manually.
 - If everything works → close ActivInspire.
-
 
 ### 4. Cleanup
 - Delete any leftover package files in `~/Downloads` you don’t need anymore.
 
 </details>
 
+---
 
 ## 🗂️ Home Folder Cleanup
 
@@ -178,7 +177,9 @@ yay -s libxml2
   - `Desktop`
   - `Downloads`
 </details>
+
 ---
+
 ## 🍷 Flowgorithm Setup (Simple Wine Method)
 
 <details>
@@ -187,12 +188,11 @@ yay -s libxml2
 ### 1. Download Flowgorithm ZIP  
 Download the Windows ZIP from:
 
-🔗 https://www.flowgorithm.org/download/
+🔗 http://www.flowgorithm.org/download/
 
 - Save to `~/Downloads`
 - Extract the ZIP
 - Inside the extracted folder, **keep only `Flowgorithm.exe`**
-
 
 ### 2. Move Flowgorithm.exe to a Permanent Location  
 Create a folder for Windows apps:
@@ -212,7 +212,6 @@ Now the executable lives here:
 ```
 ~/Windows Apps/Flowgorithm.exe
 ```
-
 
 ### 3. Create Flowgorithm Application Entry  
 Go to:
@@ -245,8 +244,6 @@ Terminal=false
 
 Save and exit.
 
-
 Flowgorithm will now appear in your application menu.
 
 </details>
-
