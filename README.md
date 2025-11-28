@@ -146,8 +146,6 @@ Download both files:
 
 Make sure they are both in `~/Downloads`.
 
----
-
 ### 2. Install Dependencies & ActivInspire
 Run this full command:
 
@@ -158,21 +156,18 @@ yay -S --needed activinspire && \
 yay -s libxml2
 ```
 
----
 
 ### 3. First Launch (Check for Errors)
 - Open **ActivInspire** once to check for missing libraries or errors.
 - If there are errors → install missing dependencies manually.
 - If everything works → close ActivInspire.
 
----
 
 ### 4. Cleanup
 - Delete any leftover package files in `~/Downloads` you don’t need anymore.
 
 </details>
 
----
 
 ## 🗂️ Home Folder Cleanup
 
@@ -183,7 +178,7 @@ yay -s libxml2
   - `Desktop`
   - `Downloads`
 </details>
-
+---
 ## 🍷 Flowgorithm Setup (Simple Wine Method)
 
 <details>
@@ -198,7 +193,6 @@ Download the Windows ZIP from:
 - Extract the ZIP
 - Inside the extracted folder, **keep only `Flowgorithm.exe`**
 
----
 
 ### 2. Move Flowgorithm.exe to a Permanent Location  
 Create a folder for Windows apps:
@@ -219,7 +213,6 @@ Now the executable lives here:
 ~/Windows Apps/Flowgorithm.exe
 ```
 
----
 
 ### 3. Create Flowgorithm Application Entry  
 Go to:
@@ -252,7 +245,6 @@ Terminal=false
 
 Save and exit.
 
----
 
 Flowgorithm will now appear in your application menu.
 
