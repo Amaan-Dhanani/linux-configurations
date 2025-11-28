@@ -194,23 +194,28 @@ Download the Windows ZIP from:
 - Extract the ZIP
 - Inside the extracted folder, **keep only `Flowgorithm.exe`**
 
-### 2. Move Flowgorithm.exe to a Permanent Location  
+### 2. Move Flowgorithm Files to a Permanent Location  
 Create a folder for Windows apps:
 
 ```bash
-mkdir -p ~/Windows\ Apps
+mkdir -p ~/Windows\ Apps/Flowgorithm
 ```
 
 Move the executable:
 
 ```bash
-mv ~/Downloads/Flowgorithm.exe ~/Windows\ Apps/
+mv ~/Downloads/Flowgorithm.exe ~/Windows\ Apps/Flowgorithm
 ```
 
 Now the executable lives here:
 
 ```
-~/Windows Apps/Flowgorithm.exe
+~/Windows Apps/Flowgorithm/Flowgorithm.exe
+```
+
+Now add a icon for Flowgorithm in the folder:
+```bash
+wget -O ~/Windows\ Apps/Flowgorithm/flowgorithm.png "https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/flowgorithm.png"
 ```
 
 ### 3. Create Flowgorithm Application Entry  
@@ -232,14 +237,14 @@ Paste this:
 [Desktop Entry]
 Name=Flowgorithm
 Comment=Flowchart Programming Environment
-Exec=wine "/home/YOURUSERNAME/Windows Apps/Flowgorithm.exe"
+Exec=wine "/home/amaand/Windows Apps/Flowgorithm/Flowgorithm.exe"
 Type=Application
-Icon=accessories-text-editor
+Icon=/home/amaand/Windows Apps/Flowgorithm/flowgorithm.png
 Categories=Development;Education;
 Terminal=false
 ```
 
-> ⚠️ Replace **YOURUSERNAME** with your actual username.  
+> ⚠️ Replace **amaand** with your actual username.  
 > ⚠️ Keep the quotes — the folder has a space in its name.
 
 Save and exit.
