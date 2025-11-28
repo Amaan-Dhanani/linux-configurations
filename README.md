@@ -183,3 +183,78 @@ yay -s libxml2
   - `Desktop`
   - `Downloads`
 </details>
+
+## 🍷 Flowgorithm Setup (Simple Wine Method)
+
+<details>
+<summary><strong>⚙️ Install Flowgorithm (Minimal Steps)</strong></summary>
+
+### 1. Download Flowgorithm ZIP  
+Download the Windows ZIP from:
+
+🔗 https://www.flowgorithm.org/download/
+
+- Save to `~/Downloads`
+- Extract the ZIP
+- Inside the extracted folder, **keep only `Flowgorithm.exe`**
+
+---
+
+### 2. Move Flowgorithm.exe to a Permanent Location  
+Create a folder for Windows apps:
+
+```bash
+mkdir -p ~/Windows\ Apps
+```
+
+Move the executable:
+
+```bash
+mv ~/Downloads/Flowgorithm.exe ~/Windows\ Apps/
+```
+
+Now the executable lives here:
+
+```
+~/Windows Apps/Flowgorithm.exe
+```
+
+---
+
+### 3. Create Flowgorithm Application Entry  
+Go to:
+
+```bash
+cd /usr/share/applications
+```
+
+Create the launcher:
+
+```bash
+sudo nano flowgorithm.desktop
+```
+
+Paste this:
+
+```
+[Desktop Entry]
+Name=Flowgorithm
+Comment=Flowchart Programming Environment
+Exec=wine "/home/YOURUSERNAME/Windows Apps/Flowgorithm.exe"
+Type=Application
+Icon=accessories-text-editor
+Categories=Development;Education;
+Terminal=false
+```
+
+> ⚠️ Replace **YOURUSERNAME** with your actual username.  
+> ⚠️ Keep the quotes — the folder has a space in its name.
+
+Save and exit.
+
+---
+
+Flowgorithm will now appear in your application menu.
+
+</details>
+
