@@ -25,11 +25,18 @@ sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
 - Manually removed dozens of unnecessary preinstalled applications (took about an hour).
 
 ### Window Manager Tweaks  
-- Open **Window Manager → Style**  
-- Set **Title Alignment → Left**
+> Open **Window Manager → Style**; Set **Title Alignment → Left**
 
-- Open **Window Manager → Advanced**
-- Check **Windows Snapping → To other windows**
+> Open **Window Manager → Advanced**; Check **Windows Snapping → To other windows**
+
+> Open **Window Manager → Keyboard**
+> | **Action**                 | **Shortcut**      |
+> |-----------------------------|-----------------|
+> | Tile window to the top      | Super + Up      |
+> | Tile window to the bottom   | Super + Down    |
+> | Tile window to the left     | Super + Left    |
+> | Tile window to the right    | Super + Right   |
+
 </details>
 
 ---
@@ -62,13 +69,23 @@ Installed via pacman/yay:
 - Deleted all existing shortcuts.
 
 ### Add New Shortcuts
-| Action               | Command                                                                                                                   | Shortcut              |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Open Whisker Menu    | `xfce4-popup-whiskermenu`                                                                                                  | **Super**            |
-| Screenshot (normal)  | `xfce4-screenshooter`                                                                                                      | **PrtSc**            |
-| Screenshot (advanced)| `xfce4-screenshooter`                                                                                                      | **Super + Shift + S**|
-| Split Screen (Left)  | `bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-left.sh \| bash"` | **Super + Left**     |
-| Split Screen (Right) | `bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-right.sh \| bash"`| **Super + Right**    |
+| Action               | Command                   | Shortcut          |
+|----------------------|---------------------------|-----------------|
+| Open Whisker Menu    | `xfce4-popup-whiskermenu` | **Ctrl + Esc**       |
+| Screenshot (normal)  | `xfce4-screenshooter`     | **PrtSc**       |
+| Screenshot (advanced)| `xfce4-screenshooter`     | **Super + Shift + S** |
+
+### Super Key Fix for Whisker Menu
+
+In XFCE, the `Super` key is a modifier, so assigning it alone to the Whisker Menu breaks other Super-based shortcuts.  
+
+**Solution:**
+1. Install `xcape`:
+```bash
+sudo pacman -S xcape
+```
+2. Map `Super` to `Ctrl + Esc` to open the Whisker Menu without breaking other shortcuts.
+3. Add the `xcape` command to an autostart script so it runs automatically on login, preserving the mapping every session. We can add on to this autostart script as time flies. 
 
 
 
@@ -100,7 +117,7 @@ exec bash
 ### Fix Terminal Font (XFCE Terminal)
 - Open **Edit → Preferences**
 - Go to **Appearance**
-- Change font → **MesloLGLDZ** (first result)
+- Change font → **MesloLGLDZ...** (first result)
 
 For other terminals → *Ask ChatGPT!* 😄
 </details>
