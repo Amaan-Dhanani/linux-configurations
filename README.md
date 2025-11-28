@@ -244,9 +244,6 @@ Categories=Development;Education;
 Terminal=false
 ```
 
-> ⚠️ Replace **amaand** with your actual username.  
-> ⚠️ Keep the quotes — the folder has a space in its name.
-
 Save and exit.
 
 Flowgorithm will now appear in your application menu.
