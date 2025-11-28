@@ -136,10 +136,40 @@ sudo cp ~/Downloads/libreoffice-math.desktop /usr/share/applications/
 ## 🖊️ ActivInspire Setup
 
 <details>
-<summary><strong>📚 ActivInspire Installation</strong></summary>
+<summary><strong>📚 Install ActivInspire</strong></summary>
 
-Full guide here:  
-https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md
+### 1. Download Required QT Packages
+Download both files:
+
+- https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst/download
+- https://sourceforge.net/projects/fabiololix-os-archive/files/Packages/qt5-webchannel-5.15.18%2Bkde%2Br3-1-x86_64.pkg.tar.zst/download
+
+Make sure they are both in `~/Downloads`.
+
+---
+
+### 2. Install Dependencies & ActivInspire
+Run this full command:
+
+```bash
+sudo pacman -U ~/Downloads/qt5-webchannel-5.15.18+kde+r3-1-x86_64.pkg.tar.zst && \
+sudo pacman -U ~/Downloads/qt5-webengine-5.15.19-4-x86_64.pkg.tar.zst && \
+yay -S --needed activinspire && \
+yay -s libxml2
+```
+
+---
+
+### 3. First Launch (Check for Errors)
+- Open **ActivInspire** once to check for missing libraries or errors.
+- If there are errors → install missing dependencies manually.
+- If everything works → close ActivInspire.
+
+---
+
+### 4. Cleanup
+- Delete any leftover package files in `~/Downloads` you don’t need anymore.
+
 </details>
 
 ---
