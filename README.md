@@ -180,10 +180,10 @@ yay -s libxml2
 
 ---
 
-## 🍷 Flowgorithm Setup (Simple Wine Method)
+## 🍷 Flowgorithm Setup
 
 <details>
-<summary><strong>⚙️ Install Flowgorithm (Minimal Steps)</strong></summary>
+<summary><strong>⚙️ Install Flowgorithm</strong></summary>
 
 ### 1. Download Flowgorithm ZIP  
 Download the Windows ZIP from:
