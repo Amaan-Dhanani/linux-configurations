@@ -67,8 +67,9 @@ Installed via pacman/yay:
 | Open Whisker Menu    | `xfce4-popup-whiskermenu`                                                                                                  | **Super**            |
 | Screenshot (normal)  | `xfce4-screenshooter`                                                                                                      | **PrtSc**            |
 | Screenshot (advanced)| `xfce4-screenshooter`                                                                                                      | **Super + Shift + S**|
-| Split Screen (Left)  | ```bash bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-left.sh | bash" ``` | **Super + Left**     |
-| Split Screen (Right) | ```bash bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-right.sh | bash" ```| **Super + Right**    |
+| Split Screen (Left)  | `bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-left.sh \| bash"` | **Super + Left**     |
+| Split Screen (Right) | `bash -c "curl -s https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/tile-right.sh \| bash"`| **Super + Right**    |
+
 
 
 </details>
