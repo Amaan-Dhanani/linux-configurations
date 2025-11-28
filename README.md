@@ -27,6 +27,9 @@ sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
 ### Window Manager Tweaks  
 - Open **Window Manager → Style**  
 - Set **Title Alignment → Left**
+
+- Open **Window Manager → Advanced**
+- Check **Windows Snapping → To other windows**
 </details>
 
 ---
