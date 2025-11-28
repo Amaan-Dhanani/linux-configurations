@@ -1,36 +1,155 @@
-# linux-configurations
+# 🐧 Linux Configuration Log  
+*A personal record of everything I change on my Garuda Linux (XFCE) setup.*
 
-I started losing track of what I do on my Linux computer, so I will tell you.
+---
 
-## Setup
-- Started all over again by downloading Garuda Linux (XFCE Version)
-- Run these cmds to delete random apps that were hard to delete:
-  ```
-  sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
-             /usr/share/applications/xfce4-mail-reader.desktop \
-             /usr/share/applications/xfce4-terminal-emulator.desktop \
-             /usr/share/applications/xfce4-web-browser.desktop
-  ```
-- Delete any unnecessary apps added by Garuda (there are a lot, this will literally take an hour)
-- Open "Window Manager" and set "Title Alignment" to Left
-- Installed `yay`, `discord`, `google-chrome`, `spotify`, `pamac`, `oh-my-posh`, `libreoffice-fresh`, `wine`
-- Open "Keyboard" and go to "Application Shortcuts" and delete all shortcuts.  
-  * Add a shortcut: Command - `xfce4-popup-whiskermenu`; Shortcut - Windows/Super].  
-  * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [PrtSc].
-  * Add a shortcut: Command - `xfce4-screenshooter`; Shortcut - [Windows/Super + Shift + S].
-- Oh My Posh Setup:
-  * Run `oh-my-posh font install meslo`
-  * Open `~/.bashrc` and replace the original contents to these: [~/.bashrc contents](https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/.bashrc)
-  * This is the theme by the way: [amaand.omp.json contents](https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/amaand.omp.json)
+## 🚀 Setup
 
-  * Run `exec bash`! Now you should have my theme! If you dont want my theme, replace the link of my theme of the bottom of `~/.bashrc`
-  * If the font not right yet...
-    * If XFCE Terminal: Open Xfce Terminal, Go to Edit → Preferences, Select the Appearance tab, Click the Font button, Choose your new font (`MesloLGLDZ...` - first result)
-    * Any other terminal: I don't know, ask ChatGPT!
-  * Change time and battery indicator setttings of clock in bottom right corner!
-- LibreOffice Setup:
-  * Change User Interface settings to `Tabbed`!
-  * I didn't like LibreOffice Math being in the Science and Education categories and only wanted it in the Office category so I copied the contents of `/usr/share/applications/libreoffice-math.desktop` to another file and then deleted `/usr/share/applications/libreoffice-math.desktop` and then placed the new file in `/usr/share/applications` to bypass restrictions  
+<details>
+<summary><strong>🧹 Fresh Install & Cleanup</strong></summary>
 
-- ActivInspire Setup: [ActivInspire](https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md)
-- Deleted all folders in `~/` besides `Desktop` and `Downloads`
+### Fresh Start
+- Reinstalled **Garuda Linux (XFCE Edition)**.
+
+### Remove XFCE “default app” launchers  
+These launchers are stubborn and normally only removable by root:
+
+```bash
+sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
+           /usr/share/applications/xfce4-mail-reader.desktop \
+           /usr/share/applications/xfce4-terminal-emulator.desktop \
+           /usr/share/applications/xfce4-web-browser.desktop
+```
+
+### Remove Garuda Bloat  
+- Manually removed dozens of unnecessary preinstalled applications (took about an hour).
+
+### Window Manager Tweaks  
+- Open **Window Manager → Style**  
+- Set **Title Alignment → Left**
+</details>
+
+---
+
+## 📦 Installed Packages
+
+<details>
+<summary><strong>📥 Core Applications Installed</strong></summary>
+
+Installed via pacman/yay:
+
+- `yay`
+- `discord`
+- `google-chrome`
+- `spotify`
+- `pamac`
+- `oh-my-posh`
+- `libreoffice-fresh`
+- `wine`
+</details>
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+<details>
+<summary><strong>⌨️ Custom Keybindings</strong></summary>
+
+### Remove XFCE Defaults
+- Deleted all existing shortcuts.
+
+### Add New Shortcuts
+| Action | Command | Shortcut |
+|--------|---------|----------|
+| Open Whisker Menu | `xfce4-popup-whiskermenu` | **Super** |
+| Screenshot (normal) | `xfce4-screenshooter` | **PrtSc** |
+| Screenshot (advanced) | `xfce4-screenshooter` | **Super + Shift + S** |
+</details>
+
+---
+
+## 🎨 Oh My Posh Theme Setup
+
+<details>
+<summary><strong>🎨 Terminal Theme (Oh My Posh)</strong></summary>
+
+### Install Font
+```bash
+oh-my-posh font install meslo
+```
+
+### `.bashrc` Setup
+Replace your `~/.bashrc` with my custom version:
+
+🔗 **https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/.bashrc**  
+🔗 **https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/amaand.omp.json**
+
+Reload Bash:
+```bash
+exec bash
+```
+
+### Fix Terminal Font (XFCE Terminal)
+- Open **Edit → Preferences**
+- Go to **Appearance**
+- Change font → **MesloLGLDZ** (first result)
+
+For other terminals → *Ask ChatGPT!* 😄
+</details>
+
+---
+
+## ⏰ System Indicators
+
+<details>
+<summary><strong>🕒 Panel Time & Battery Tweaks</strong></summary>
+
+- Customized clock format & battery icon behavior in XFCE panel.  
+</details>
+
+---
+
+## 📝 LibreOffice Setup
+
+<details>
+<summary><strong>📄 LibreOffice Customization</strong></summary>
+
+### UI Settings
+- Set interface to **Tabbed** (Ribbon-style).
+
+### Custom Category Fix for LibreOffice Math  
+LibreOffice Math was showing in *Science* and *Education* categories, so I:
+
+1. Copied the original `.desktop` file.
+2. Deleted the protected original using root permissions.
+3. Placed my edited file back into `/usr/share/applications`.
+
+Command used:
+
+```bash
+sudo cp ~/Downloads/libreoffice-math.desktop /usr/share/applications/
+```
+</details>
+
+---
+
+## 🖊️ ActivInspire Setup
+
+<details>
+<summary><strong>📚 ActivInspire Installation</strong></summary>
+
+Full guide here:  
+https://github.com/Amaan-Dhanani/linux-configurations/blob/main/ActivInspire.md
+</details>
+
+---
+
+## 🗂️ Home Folder Cleanup
+
+<details>
+<summary><strong>🧽 Home Directory Cleanup</strong></summary>
+
+- Deleted all default folders inside `~/` **except**:
+  - `Desktop`
+  - `Downloads`
+</details>
