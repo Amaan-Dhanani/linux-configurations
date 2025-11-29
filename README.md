@@ -312,7 +312,7 @@ fusermount -u ~/iphone
 <details>
 <summary><strong>🛠️ Simple Fix</strong></summary>  
            
-###Disable “Disable While Typing” for the Trackpad
+### Disable “Disable While Typing” for the Trackpad  
 This is a ThinkPad issue, probably.
 **Run:**
 ```bash
