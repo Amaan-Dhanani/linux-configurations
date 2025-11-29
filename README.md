@@ -282,20 +282,22 @@ Flowgorithm will now appear in your application menu.
 
 <details>
 <summary><strong>🔗 Pair</strong></summary>
-Install:
+
+**Install:**
 ```bash
 sudo pacman -S libimobiledevice ifuse
 ```
-To Transfer:
+
+**To Transfer:**
 ```bash
 idevicepair pair
 mkdir ~/iphone
 ifuse ~/iphone
 ```
-When finished, unmount:
+
+**When finished, unmount:**
 ```bash
 fusermount -u ~/iphone
 ```
+
 </details>
-
-
