@@ -275,3 +275,26 @@ Save and exit.
 Flowgorithm will now appear in your application menu.
 
 </details>
+
+---
+
+## 📱 Pair iPhone File System
+
+<details>
+Install:
+```bash
+sudo pacman -S libimobiledevice ifuse
+```
+To Transfer:
+```bash
+idevicepair pair
+mkdir ~/iphone
+ifuse ~/iphone
+```
+When finished, unmount:
+```bash
+fusermount -u ~/iphone
+```
+</details>
+
+
