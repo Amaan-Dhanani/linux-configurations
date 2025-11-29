@@ -282,7 +282,8 @@ Flowgorithm will now appear in your application menu.
 
 <details>
 <summary><strong>🔗 Pair</strong></summary>  
-
+           
+### 
 **Install:**
 ```bash
 sudo pacman -S libimobiledevice ifuse
