@@ -281,6 +281,7 @@ Flowgorithm will now appear in your application menu.
 ## 📱 Pair iPhone File System
 
 <details>
+<summary><strong>🔗 Pair</strong></summary>
 Install:
 ```bash
 sudo pacman -S libimobiledevice ifuse
