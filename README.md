@@ -290,6 +290,7 @@ sudo pacman -S libimobiledevice ifuse
 ```
 
 **To Transfer:**
+Plug iPhone into Computer via USB...
 ```bash
 idevicepair pair
 mkdir ~/iphone
@@ -297,6 +298,7 @@ ifuse ~/iphone
 ```
 
 **When finished, unmount:**
+Unplug...
 ```bash
 fusermount -u ~/iphone
 ```
