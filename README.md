@@ -86,6 +86,7 @@ sudo pacman -S xcape
 ```
 2. Map `Super` to `Ctrl + Esc` to open the Whisker Menu without breaking other shortcuts.
 3. Add the `xcape` command to an autostart script so it runs automatically on login, preserving the mapping every session. We can add on to this autostart script as time flies. 
+4. Open **Session and Startup → Application Autostart → Add**: Name - Autostart, Description - Autostart commands; Command - `bash <(curl -L https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/autostart.sh)`; On Login.
 
 
 
