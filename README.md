@@ -304,3 +304,29 @@ fusermount -u ~/iphone
 ```
 
 </details>
+
+---
+
+## 📱 When Holding a Key, the Cursor Will Not Move
+
+<details>
+<summary><strong>🛠️ Simple Fix</strong></summary>  
+           
+###Disable “Disable While Typing” for the Trackpad
+This is a ThinkPad issue, probably.
+**Run:**
+```bash
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0
+sudo mkdir -p /etc/X11/xorg.conf.d
+sudo nano /etc/X11/xorg.conf.d/90-trackpad.conf
+```
+**Paste This:**
+```
+Section "InputClass"
+    Identifier "trackpad no typing block"
+    MatchIsTouchpad "on"
+    Driver "libinput"
+    Option "DisableWhileTyping" "false"
+EndSection
+```
+</details>
