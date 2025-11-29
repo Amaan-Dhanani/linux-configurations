@@ -313,7 +313,7 @@ fusermount -u ~/iphone
 <summary><strong>🛠️ Simple Fix</strong></summary>  
            
 ### Disable “Disable While Typing” for the Trackpad  
-This is a ThinkPad issue, probably.
+This is a ThinkPad issue, probably.  
 **Run:**
 ```bash
 xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0
