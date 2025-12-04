@@ -6,7 +6,7 @@
 ## 🚀 Setup
 
 <details>
-<summary><strong>🧹 Fresh Install & Cleanup</strong></summary>
+<summary><strong>Fresh Install & Cleanup</strong></summary>
 
 ### Fresh Start
 - Reinstalled **Garuda Linux (XFCE Edition)**.
@@ -44,7 +44,7 @@ sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
 ## 📦 Installed Packages
 
 <details>
-<summary><strong>📥 Core Applications Installed</strong></summary>
+<summary><strong>Core Applications Installed</strong></summary>
 
 Installed via pacman/yay:
 
@@ -63,7 +63,7 @@ Installed via pacman/yay:
 ## ⌨️ Keyboard Shortcuts
 
 <details>
-<summary><strong>⌨️ Custom Keybindings</strong></summary>
+<summary><strong>Custom Keybindings</strong></summary>
 
 ### Remove XFCE Defaults
 - Deleted all existing shortcuts.
@@ -97,7 +97,7 @@ sudo pacman -S xcape
 ## 🎨 Oh My Posh Theme Setup
 
 <details>
-<summary><strong>🎨 Terminal Theme (Oh My Posh)</strong></summary>
+<summary><strong>Terminal Theme (Oh My Posh)</strong></summary>
 
 ### Install Font
 ```bash
@@ -128,7 +128,7 @@ For other terminals → *Ask ChatGPT!* 😄
 ## ⏰ System Indicators
 
 <details>
-<summary><strong>🕒 Panel Time & Battery Tweaks</strong></summary>
+<summary><strong>Panel Time & Battery Tweaks</strong></summary>
 
 - Customized clock format & battery icon behavior in XFCE panel.  
 </details>
@@ -138,7 +138,7 @@ For other terminals → *Ask ChatGPT!* 😄
 ## 📝 LibreOffice Setup
 
 <details>
-<summary><strong>📄 LibreOffice Customization</strong></summary>
+<summary><strong>LibreOffice Customization</strong></summary>
 
 ### UI Settings
 - Set interface to **Tabbed** (Ribbon-style).
@@ -162,7 +162,7 @@ sudo cp ~/Downloads/libreoffice-math.desktop /usr/share/applications/
 ## 🖊️ ActivInspire Setup
 
 <details>
-<summary><strong>📚 Install ActivInspire</strong></summary>
+<summary><strong>Install ActivInspire</strong></summary>
 
 ### 1. Download Required QT Packages
 Download both files:
@@ -197,7 +197,7 @@ yay -s libxml2
 ## 🗂️ Home Folder Cleanup
 
 <details>
-<summary><strong>🧽 Home Directory Cleanup</strong></summary>
+<summary><strong>Home Directory Cleanup</strong></summary>
 
 - Deleted all default folders inside `~/` **except**:
   - `Desktop`
@@ -209,7 +209,7 @@ yay -s libxml2
 ## 🍷 Flowgorithm Setup
 
 <details>
-<summary><strong>⚙️ Install Flowgorithm</strong></summary>
+<summary><strong>Install Flowgorithm</strong></summary>
 
 ### 1. Download Flowgorithm ZIP  
 Download the Windows ZIP from:
@@ -310,7 +310,7 @@ fusermount -u ~/iphone
 ## 📱 When Holding a Key, the Cursor Will Not Move
 
 <details>
-<summary><strong>🛠️ Simple Fix</strong></summary>  
+<summary><strong>Simple Fix</strong></summary>  
            
 ### Disable “Disable While Typing” for the Trackpad  
 This is a ThinkPad issue, probably.  
@@ -336,7 +336,7 @@ EndSection
 ## 🖨️ Printing
 
 <details>
-<summary><strong>🖨️ CUPS and Related Packages</strong></summary>
+<summary><strong>CUPS and Related Packages</strong></summary>
 
 **Install:**
 ```bash
