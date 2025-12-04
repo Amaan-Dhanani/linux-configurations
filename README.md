@@ -330,3 +330,23 @@ Section "InputClass"
 EndSection
 ```
 </details>
+---
+## Printing
+
+<details>
+<summary>🖨️ CUPS and Other Packages</summary>
+**Install:**
+```bash
+sudo pacman -S cups system-config-printer
+```
+**To Configure Printers:**
+```bash
+sudo systemctl enable cups
+sudo systemctl start cups
+```
+Open `Print Settings` and the rest is self explanatory. Once done, close window and run:
+```bash
+sudo systemctl stop cups
+```
+
+</details>
