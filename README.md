@@ -306,4 +306,53 @@ fusermount -u ~/iphone
 </details>
 
 ---
-## 📱 When Holding a Key, the Cursor Does Not Move <details> <summary><strong>🛠️ Simple Fix</strong></summary> ### Disable “Disable While Typing” for the Trackpad This is likely a ThinkPad-specific issue. **Run:** ```bash xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0 sudo mkdir -p /etc/X11/xorg.conf.d sudo nano /etc/X11/xorg.conf.d/90-trackpad.conf ``` **Paste:** ``` Section "InputClass" Identifier "trackpad no typing block" MatchIsTouchpad "on" Driver "libinput" Option "DisableWhileTyping" "false" EndSection ``` </details> --- ## 🖨️ Printing <details> <summary><strong>🖨️ CUPS and Related Packages</strong></summary> **Install:** ```bash sudo pacman -S cups system-config-printer ``` **Configure printers:** ```bash sudo systemctl enable cups sudo systemctl start cups ``` Open **Print Settings**, configure your printer, then close the window and run: ```bash sudo systemctl stop cups ``` </details>
+
+## 📱 When Holding a Key, the Cursor Will Not Move
+
+<details>
+<summary><strong>🛠️ Simple Fix</strong></summary>  
+           
+### Disable “Disable While Typing” for the Trackpad  
+This is a ThinkPad issue, probably.  
+**Run:**
+```bash
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Disable While Typing Enabled" 0
+sudo mkdir -p /etc/X11/xorg.conf.d
+sudo nano /etc/X11/xorg.conf.d/90-trackpad.conf
+```
+**Paste This:**
+```
+Section "InputClass"
+    Identifier "trackpad no typing block"
+    MatchIsTouchpad "on"
+    Driver "libinput"
+    Option "DisableWhileTyping" "false"
+EndSection
+```
+</details>
+---  
+
+## 🖨️ Printing
+
+<details>
+<summary>### 🖨️ CUPS and Related Packages</summary>
+
+**Install:**
+```bash
+sudo pacman -S cups system-config-printer
+```
+
+**To configure printers:**
+```bash
+sudo systemctl enable cups
+sudo systemctl start cups
+```
+
+Open **Print Settings**, configure your printer, then close the window and run:
+
+```bash
+sudo systemctl stop cups
+```
+Done, print normally!
+
+</details>
