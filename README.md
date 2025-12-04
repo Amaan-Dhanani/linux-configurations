@@ -336,7 +336,7 @@ EndSection
 ## 🖨️ Printing
 
 <details>
-<summary>### 🖨️ CUPS and Related Packages</summary>
+<summary><strong>🖨️ CUPS and Related Packages</strong></summary>
 
 **Install:**
 ```bash
