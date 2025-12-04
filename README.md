@@ -331,7 +331,7 @@ EndSection
 ```
 </details>
 ---
-## Printing
+## Printing  
 
 <details>
 <summary>🖨️ CUPS and Other Packages</summary>
