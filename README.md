@@ -46,6 +46,8 @@ sudo rm -f /usr/share/applications/xfce4-file-manager.desktop \
 <details>
 <summary><strong>Core Applications Installed</strong></summary>
 
+Install ProtonVPN!
+
 Installed via pacman/yay:
 
 - `yay`
