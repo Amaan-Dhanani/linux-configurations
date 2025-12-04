@@ -330,6 +330,7 @@ Section "InputClass"
 EndSection
 ```
 </details>
+
 ---  
 
 ## 🖨️ Printing
