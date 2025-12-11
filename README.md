@@ -145,18 +145,6 @@ For other terminals → *Ask ChatGPT!* 😄
 ### UI Settings
 - Set interface to **Tabbed** (Ribbon-style).
 
-### Custom Category Fix for LibreOffice Math  
-LibreOffice Math was showing in *Science* and *Education* categories, so I:
-
-1. Copied the original `.desktop` file.
-2. Deleted the protected original using root permissions.
-3. Placed my edited file back into `/usr/share/applications`.
-
-Command used:
-
-```bash
-sudo cp ~/Downloads/libreoffice-math.desktop /usr/share/applications/
-```
 </details>
 
 ---
