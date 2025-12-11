@@ -58,7 +58,6 @@ Installed via pacman/yay:
 - `oh-my-posh`
 - `libreoffice-fresh`
 - `wine`
-- `balena-etcher`
 </details>
 
 ---
