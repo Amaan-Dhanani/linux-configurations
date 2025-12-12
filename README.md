@@ -90,6 +90,8 @@ sudo pacman -S xcape
 3. Add the `xcape` command to an autostart script so it runs automatically on login, preserving the mapping every session. We can add on to this autostart script as time flies. 
 4. Open **Session and Startup → Application Autostart → Add**: Name - Autostart, Description - Autostart commands; Command - `bash -c 'curl -fsSL https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/autostart.sh | bash')`; On Login.
 
+NOTE: This will not work if not connected to internet! Connect to internet and then manually run `bash -c 'curl -fsSL https://raw.githubusercontent.com/Amaan-Dhanani/linux-configurations/refs/heads/main/files/autostart.sh | bash')` if needed!
+
 
 
 </details>
